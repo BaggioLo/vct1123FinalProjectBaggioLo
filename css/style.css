@@ -73,7 +73,7 @@ p {
 
 #bottom-content #card1 {
   width: 22.5%;
-  height: 90%;
+  height: 95%;
   display: inline-block;
   background-image: url("../img/card 1.png");
   background-size: contain;
@@ -83,7 +83,7 @@ p {
 
 #bottom-content #card2 {
   width: 22.5%;
-  height: 90%;
+  height: 95%;
   display: inline-block;
   background-image: url("../img/card2.png");
   background-size: contain;
@@ -94,7 +94,7 @@ p {
 
 #bottom-content #card3 {
   width: 22.5%;
-  height: 90%;
+  height: 95%;
   display: inline-block;
   background-image: url("../img/card3.png");
   background-size: contain;
@@ -105,7 +105,7 @@ p {
 
 #bottom-content #card4 {
   width: 22.5%;
-  height: 90%;
+  height: 95%;
   display: inline-block;
   background-image: url("../img/card4 copy.png");
   background-size: contain;
