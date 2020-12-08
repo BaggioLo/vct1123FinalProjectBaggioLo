@@ -2,4 +2,115 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F6E6D7;
+}
+
+h1 {
+  color: #F25B4B;
+}
+
+h2 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+#top-content {
+  width: 80%;
+  height: 50%;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+#top-content-left {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  background-image: url("../img/redSunGradient.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#top-content-right {
+  float: right;
+  width: 40%;
+  height: 80%;
+  overflow: hidden;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+#top-content-right h1 {
+  font-size: 3em;
+}
+
+#top-content-right h2 {
+  font-size: 1.2em;
+  margin-top: 4%;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+}
+
+#top-content-right p {
+  margin-top: 4%;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+}
+
+#bottom-content {
+  width: 80%;
+  height: 50%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+}
+
+#bottom-content #card1 {
+  width: 22.5%;
+  height: 90%;
+  display: inline-block;
+  background-image: url("../img/card 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 2.5%;
+}
+
+#bottom-content #card2 {
+  width: 22.5%;
+  height: 90%;
+  display: inline-block;
+  background-image: url("../img/card2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 2.5%;
+  border-radius: 2.5%;
+}
+
+#bottom-content #card3 {
+  width: 22.5%;
+  height: 90%;
+  display: inline-block;
+  background-image: url("../img/card3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 2.5%;
+  border-radius: 2.5%;
+}
+
+#bottom-content #card4 {
+  width: 22.5%;
+  height: 90%;
+  display: inline-block;
+  background-image: url("../img/card4 copy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 2.5%;
+  border-radius: 2.5%;
+}
 /*# sourceMappingURL=style.css.map */
