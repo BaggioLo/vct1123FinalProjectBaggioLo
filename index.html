@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
@@ -25,12 +26,23 @@
 
     <div id="bottom-content">
 
-        <div id="card1"><button type="button" class="buttons">About</button></div>
+        <div id="card1"><button type="button" id="button1" class="buttons">About</button></div>
         <div id="card2"><button type="button" class="buttons">Portfolio</button></div>
         <div id="card3"><button type="button" class="buttons">Skills</button></div>
         <div id="card4"><button type="button" class="buttons">Contact</button></div>
 
     </div>
-    
+
+<script>
+    $(function(){
+
+       $("#button1").click(function(){
+        $("card1").hide();
+       });
+
+
+
+    });
+</script> 
 </body>
 </html>
