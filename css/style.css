@@ -162,4 +162,176 @@ p {
   text-transform: uppercase;
   -webkit-text-stroke: 2px black;
 }
+
+#bottom-content-about {
+  display: none;
+  width: 80%;
+  height: 50%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-about #about-left {
+  width: 50%;
+  height: 95%;
+  float: left;
+}
+
+#bottom-content-about #about-left p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 0.2em;
+  margin-bottom: 30%;
+}
+
+#bottom-content-about #about-left p button {
+  padding: 15px;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-about #about-right {
+  width: 50%;
+  height: 95%;
+  float: right;
+  text-align: left;
+}
+
+#bottom-content-portfolio {
+  display: none;
+  width: 80%;
+  height: 50%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-portfolio #portfolio-left {
+  width: 50%;
+  height: 95%;
+  float: left;
+}
+
+#bottom-content-portfolio #portfolio-left p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 0.2em;
+  margin-bottom: 30%;
+}
+
+#bottom-content-portfolio #portfolio-left p button {
+  padding: 15px;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-portfolio #portfolio-right {
+  width: 50%;
+  height: 95%;
+  float: right;
+  text-align: left;
+}
+
+#bottom-content-skills {
+  display: none;
+  width: 80%;
+  height: 50%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-skills #skills-left {
+  width: 50%;
+  height: 95%;
+  float: left;
+}
+
+#bottom-content-skills #skills-left p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 0.2em;
+  margin-bottom: 30%;
+}
+
+#bottom-content-skills #skills-left p button {
+  padding: 15px;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-skills #skills-right {
+  width: 50%;
+  height: 95%;
+  float: right;
+  text-align: left;
+}
+
+#bottom-content-contact {
+  display: none;
+  width: 80%;
+  height: 50%;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  margin-top: 5%;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-contact #contact-left {
+  width: 50%;
+  height: 95%;
+  float: left;
+}
+
+#bottom-content-contact #contact-left p {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 0.2em;
+  margin-bottom: 30%;
+}
+
+#bottom-content-contact #contact-left p button {
+  padding: 15px;
+  background-color: black;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+#bottom-content-contact #contact-right {
+  width: 50%;
+  height: 95%;
+  float: right;
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */

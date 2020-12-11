@@ -27,20 +27,105 @@
     <div id="bottom-content">
 
         <div id="card1"><button type="button" id="button1" class="buttons">About</button></div>
-        <div id="card2"><button type="button" class="buttons">Portfolio</button></div>
-        <div id="card3"><button type="button" class="buttons">Skills</button></div>
-        <div id="card4"><button type="button" class="buttons">Contact</button></div>
+        <div id="card2"><button type="button" id="button2" class="buttons">Portfolio</button></div>
+        <div id="card3"><button type="button" id="button3" class="buttons">Skills</button></div>
+        <div id="card4"><button type="button" id="button4" class="buttons">Contact</button></div>
 
+    </div>
+
+    <div id="bottom-content-about">
+        <div id="about-left">
+        <p>About<p>
+        <button class="backbutton">Back</button>
+        </div>
+        <div id="about-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus sagittis nunc, id mollis mauris finibus sed. Duis bibendum in augue nec posuere. Phasellus metus magna, interdum non lacus vel, sagittis malesuada augue. Sed volutpat nulla in nisi pretium, a mollis ex ultrices. Ut aliquet, orci sed porttitor blandit, sem dolor cursus mauris, vitae porta orci quam vel sapien. Proin tristique aliquam malesuada. Pellentesque faucibus quam eget ante gravida rutrum. </p>
+        </div>
+    </div>
+
+    <div id="bottom-content-portfolio">
+        <div id="portfolio-left">
+        <p>Portfolio<p>
+        <button class="backbutton">Back</button>
+        </div>
+        <div id="portfolio-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus sagittis nunc, id mollis mauris finibus sed. Duis bibendum in augue nec posuere. Phasellus metus magna, interdum non lacus vel, sagittis malesuada augue. Sed volutpat nulla in nisi pretium, a mollis ex ultrices. Ut aliquet, orci sed porttitor blandit, sem dolor cursus mauris, vitae porta orci quam vel sapien. Proin tristique aliquam malesuada. Pellentesque faucibus quam eget ante gravida rutrum. </p>
+        </div>
+    </div>
+
+    <div id="bottom-content-skills">
+        <div id="skills-left">
+        <p>Skills<p>
+        <button class="backbutton">Back</button>
+        </div>
+        <div id="skills-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus sagittis nunc, id mollis mauris finibus sed. Duis bibendum in augue nec posuere. Phasellus metus magna, interdum non lacus vel, sagittis malesuada augue. Sed volutpat nulla in nisi pretium, a mollis ex ultrices. Ut aliquet, orci sed porttitor blandit, sem dolor cursus mauris, vitae porta orci quam vel sapien. Proin tristique aliquam malesuada. Pellentesque faucibus quam eget ante gravida rutrum. </p>
+        </div>
+    </div>
+
+    <div id="bottom-content-contact">
+        <div id="contact-left">
+        <p>Contact<p>
+        <button class="backbutton">Back</button>
+        </div>
+        <div id="contact-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus sagittis nunc, id mollis mauris finibus sed. Duis bibendum in augue nec posuere. Phasellus metus magna, interdum non lacus vel, sagittis malesuada augue. Sed volutpat nulla in nisi pretium, a mollis ex ultrices. Ut aliquet, orci sed porttitor blandit, sem dolor cursus mauris, vitae porta orci quam vel sapien. Proin tristique aliquam malesuada. Pellentesque faucibus quam eget ante gravida rutrum. </p>
+        </div>
     </div>
 
 <script>
     $(function(){
 
+       $("#card1").hide().fadeIn(1000);
+       $("#card2").hide().fadeIn(2000);
+       $("#card3").hide().fadeIn(3000);
+       $("#card4").hide().fadeIn(4000);
+        
        $("#button1").click(function(){
-        $("card1").hide();
+        $("#bottom-content").hide();
+        $("#bottom-content-about").show();
        });
 
+       $("#button2").click(function(){
+           $("#bottom-content").hide();
+           $("#bottom-content-portfolio").show();
+       })
 
+       $("#button3").click(function(){
+           $("#bottom-content").hide();
+           $("#bottom-content-skills").show();
+       })
+
+       $("#button4").click(function(){
+           $("#bottom-content").hide();
+           $("#bottom-content-contact").show();
+       })
+
+      /* var card1 = document.getElementById('card1');
+       var card2 = document.getElementById('card2');
+
+       $("#backbutton").click(function(){
+           $("#bottom-content").show().hide().fadeIn(card1);
+           $("#bottom-content").show().hide().fadeIn(card2, 2000);
+           //$("#card2").fadeIn(2000);
+           //$("#card3").fadeIn(3000);
+           //$("#card4").fadeIn(4000);
+       })
+       */
+
+       /*
+       $("#backbutton").click(function(){
+           $("#card1").hide().fadeIn(1000);
+           $("#card2").fadeIn(2000);
+           $("#card3").fadeIn(3000);
+           $("#card4").fadeIn(4000);   
+       });
+       */
+       
+       $(".backbutton").click(function(){
+        $("#bottom-content").show().hide().fadeIn();
+    });
+        
 
     });
 </script> 
