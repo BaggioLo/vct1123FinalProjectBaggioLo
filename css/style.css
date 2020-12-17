@@ -334,4 +334,8 @@ p {
   float: right;
   text-align: left;
 }
+
+.test {
+  visibility: hidden;
+}
 /*# sourceMappingURL=style.css.map */
